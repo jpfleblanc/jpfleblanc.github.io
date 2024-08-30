@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href=site.work_url>Associate Professor, Memorial University of Newfoundland</a><br>CEO and Co-Founder, <a href=site.work_url>Compute Everything</a>
 
 profile:
   align: right

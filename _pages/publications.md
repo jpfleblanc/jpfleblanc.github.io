@@ -9,12 +9,12 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature
+<!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %} -->
+{% include bib_search.liquid %}
 
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography %}
 
 </div>

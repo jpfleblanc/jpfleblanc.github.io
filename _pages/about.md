@@ -2,13 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=site.work_url>Associate Professor, Memorial University of Newfoundland</a><br>CEO and Co-Founder, <a href=site.work_url>Compute Everything</a>
+subtitle: <a href="https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/">Associate Professor, Memorial University of Newfoundland</a><br>CEO and Co-Founder, <a href="https://computeeverything.ca">Compute Everything</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p><a href="https://mun.ca">Memorial University of Newfoundland</a></p>
     <p>Chemistry Physics C3031</p>
     <p>283 Prince Philip Drive</p>
     <p>St. John's, NL, Canada</p>

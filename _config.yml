@@ -128,7 +128,7 @@ cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: fQEQlBpbzg2a6-5LtLb5oQ3SoGPEenXYZfcvP01uYBQ # your google-site-verification ID (Google Search Console)
+google_site_verification: 73H6I1YnZQvQ-r7iW-fO2XIrbK-SKvd0JTvw8_5Ocmg # your google-site-verification ID (Google Search Console)
 bing_site_verification: 4CE1C5A4D47625434DCFA05F73BD2B74 # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------

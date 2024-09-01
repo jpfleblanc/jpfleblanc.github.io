@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description: Below are a few of our group's public repositories and some fun stats.
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 {% if site.data.repositories.github_users %}

@@ -19,8 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Dr. James P. F. LeBlanc is a computational condensed matter physicist and Associate Professor in the Department of Physics and Physical Oceanography at Memorial University of Newfoundland.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+For information about our research group, please visit our departmental pages <a href="https://www.physics.mun.ca/~jleblanc/">here</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Dr. James LeBlanc received his PhD from the University of Guelph in 2012.  He did postdoctoral research at the Max Planck Institute for the Physics of Complex Systems in Dresden, Germany, and at the University of Michigan.  He has been a member of the Simons Foundation Collaboration on the Many-Electron Problem, and is also a Co-Founder of Compute Everything Technologies Ltd., a Newfoundland-based start-up company, since 2024. 
+
+
+

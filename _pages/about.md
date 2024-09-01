@@ -21,9 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 Dr. James P. F. LeBlanc is a computational condensed matter physicist and Associate Professor in the Department of Physics and Physical Oceanography at Memorial University of Newfoundland.  
 
-For information about our research group, please visit our departmental pages <a href="https://www.physics.mun.ca/~jleblanc/">here</a>.
-
 Dr. James LeBlanc received his PhD from the University of Guelph in 2012.  He did postdoctoral research at the Max Planck Institute for the Physics of Complex Systems in Dresden, Germany, and at the University of Michigan.  He has been a member of the Simons Foundation Collaboration on the Many-Electron Problem, and is also a Co-Founder of Compute Everything Technologies Ltd., a Newfoundland-based start-up company, since 2024. 
 
-
+For information about our research topics and group members, please visit our group page <a href="https://www.physics.mun.ca/~jleblanc/">here</a>.
 

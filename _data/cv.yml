@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: James LeBlanc
+      value: Dr. James P. F. LeBlanc
     
 
 - title: Education
@@ -22,6 +22,14 @@
     - title: Assistant Professor
       institution: Memorial University of Newfoundland
       year: 2016-2022
+
+    - title: Postdoctoral Fellow
+      institution: University of Michigan
+      year: 2014-2016
+
+    - title: Postdoctoral Fellow
+      institution: Max Planck Institute for the Physics of Complex Systems, Dresden, Germany
+      year: 2012-2016
       
 
 - title: Other Interests

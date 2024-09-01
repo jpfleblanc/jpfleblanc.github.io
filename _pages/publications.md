@@ -2,9 +2,9 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications in reversed chronological order pulled from google scholar.  Up-to-date list can always be found <a href="https://scholar.google.com/citations?user=rIvvsYsAAAAJ&hl=en">here</a>.
+description: #Publications in reversed chronological order pulled from google scholar.  Up-to-date list can always be found <a href="https://scholar.google.com/citations?user=rIvvsYsAAAAJ&hl=en">here</a>.
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 <!-- _pages/publications.md -->

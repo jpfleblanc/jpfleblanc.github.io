@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: A selection of publications are here. You can find the rest on google scholar (Link on main page). 
+description: A selection of my more impactful publications are here. You can find the rest on google scholar (Link on main page). 
 nav: true
 nav_order: 1
 ---

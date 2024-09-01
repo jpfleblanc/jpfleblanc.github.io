@@ -14,8 +14,8 @@ profile:
     <p>283 Prince Philip Drive</p>
     <p>St. John's, NL, Canada</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false #true # includes a list of news items
+selected_papers: false #true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 

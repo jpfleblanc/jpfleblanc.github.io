@@ -27,8 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (name) name.textContent = profile.name || profile.login || username;
       if (login) login.textContent = `@${profile.login || username}`;
       if (bio) {
-        bio.textContent =
-          profile.bio || "Public profile information from GitHub.";
+        bio.textContent = profile.bio || "Public profile information from GitHub.";
       }
       if (avatar && profile.avatar_url) {
         avatar.src = profile.avatar_url;
@@ -41,19 +40,15 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
-      const metaParts = [profile.company, profile.location, profile.blog]
-        .filter(Boolean)
-        .map((value) => value.toString().replace(/^@/, ""));
+      const metaParts = [profile.company, profile.location, profile.blog].filter(Boolean).map((value) => value.toString().replace(/^@/, ""));
 
       if (meta) {
-        meta.textContent =
-          metaParts.join(" • ") || "View full contribution history on GitHub.";
+        meta.textContent = metaParts.join(" • ") || "View full contribution history on GitHub.";
       }
     } catch (error) {
       const bio = card.querySelector(".github-profile-card__bio");
       if (bio) {
-        bio.textContent =
-          "GitHub profile data could not be loaded right now. Open the profile directly.";
+        bio.textContent = "GitHub profile data could not be loaded right now. Open the profile directly.";
       }
     }
   });

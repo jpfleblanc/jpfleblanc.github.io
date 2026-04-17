@@ -22,6 +22,7 @@ on the profile page itself.
 </div>
 
 ---
+
 {% endif %}
 
 {% if site.data.repositories.github_repos %}

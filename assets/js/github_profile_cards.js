@@ -46,11 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
 
-        var metaParts = [profile.company, profile.location, profile.blog]
-          .filter(Boolean)
-          .map(function (value) {
-            return value.toString().replace(/^@/, "");
-          });
+        var metaParts = [profile.company, profile.location, profile.blog].filter(Boolean).map(function (value) {
+          return value.toString().replace(/^@/, "");
+        });
 
         if (meta) {
           meta.textContent = metaParts.join(" • ") || "View full contribution history on GitHub.";

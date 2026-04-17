@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/">Associate Professor, Memorial University of Newfoundland</a><br>CEO and Co-Founder, <a href="https://computeeverything.ca">Compute Everything</a>
+description: Personal website of Dr. James P. F. LeBlanc, computational condensed matter physicist, Associate Professor at Memorial University of Newfoundland, and CEO and Co-Founder of Compute Everything.
+subtitle: <a href="https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/">Associate Professor, Memorial University of Newfoundland</a><br>CEO and Co-Founder, <a href="https://www.computeeverything.ca/">Compute Everything</a>
 
 profile:
   align: right
@@ -24,4 +25,3 @@ Dr. James P. F. LeBlanc is a computational condensed matter physicist and Associ
 Dr. James LeBlanc received his PhD from the University of Guelph in 2012.  He did postdoctoral research at the Max Planck Institute for the Physics of Complex Systems in Dresden, Germany, and at the University of Michigan.  He has been a member of the Simons Foundation Collaboration on the Many-Electron Problem, and is also a Co-Founder of Compute Everything Technologies Ltd., a Newfoundland-based start-up company, since 2024. 
 
 For information about our research topics and group members, please visit our group page <a href="https://www.physics.mun.ca/~jleblanc/">here</a>.
-

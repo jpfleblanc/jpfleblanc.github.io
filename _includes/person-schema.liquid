@@ -1,0 +1,46 @@
+{% if page.url == '/' %}
+  {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+  {% assign profile_image = page.profile.image | default: 'prof_pic.jpg' %}
+  {% assign profile_image_url = profile_image | prepend: 'assets/img/' | absolute_url %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "{{ '/' | absolute_url }}#person",
+      "name": "{{ author_name | strip }}",
+      "givenName": "{{ site.first_name }}",
+      "familyName": "{{ site.last_name }}",
+      "url": "{{ '/' | absolute_url }}",
+      "mainEntityOfPage": "{{ '/' | absolute_url }}",
+      "image": "{{ profile_image_url }}",
+      "email": "mailto:{{ site.email }}",
+      "description": "{% if page.description %}{{ page.description | strip_newlines | escape }}{% else %}{{ site.description | strip_newlines | escape }}{% endif %}",
+      "jobTitle": "Associate Professor of Physics and Physical Oceanography",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Memorial University of Newfoundland",
+        "url": "https://www.mun.ca/"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Memorial University of Newfoundland",
+        "url": "https://www.mun.ca/"
+      },
+      {% if site.same_as_links %}
+      "sameAs": {{ site.same_as_links | jsonify }},
+      {% endif %}
+      "subjectOf": [
+        {
+          "@type": "WebSite",
+          "name": "LeBlanc Research Group",
+          "url": "{{ site.research_group_url }}"
+        },
+        {
+          "@type": "Organization",
+          "name": "Compute Everything",
+          "url": "{{ site.company_url }}"
+        }
+      ]
+    }
+  </script>
+{% endif %}

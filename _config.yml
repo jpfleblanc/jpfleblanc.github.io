@@ -8,12 +8,14 @@ middle_name: P. F.
 last_name: LeBlanc
 email: jleblanc@mun.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Dr. James P. F. LeBlanc, computational condensed matter
+  physicist, Associate Professor at Memorial University of Newfoundland, and
+  CEO and Co-Founder of Compute Everything.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: James P. F. LeBlanc, James LeBlanc, computational condensed matter physics, Memorial University of Newfoundland, Compute Everything, many-electron problem, quantum materials
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -63,9 +65,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: https://jpfleblanc.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -78,6 +80,20 @@ research_gate_profile: James-Leblanc-4 # your profile on ResearchGate
 scholar_userid: rIvvsYsAAAAJ # your Google Scholar ID
 work_url: https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/ # work page URL
 x_username: jpfleblanc # your X handle
+company_url: https://www.computeeverything.ca/ # primary company website
+research_group_url: https://www.physics.mun.ca/~jleblanc/ # public research group landing page
+
+same_as_links:
+  - https://orcid.org/0000-0003-3233-1050
+  - https://scholar.google.com/citations?user=rIvvsYsAAAAJ
+  - https://www.researchgate.net/profile/James-Leblanc-4/
+  - https://github.com/jpfleblanc
+  - https://www.linkedin.com/in/james-leblanc-34375536
+  - https://twitter.com/jpfleblanc
+  - https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/
+  - https://www.physics.mun.ca/~jleblanc/
+  - https://sites.google.com/view/jpfleblanc/home/
+  - https://www.computeeverything.ca/
 
 # the rest of the unused socials
 acm_id: # your dl.acm.org/profile/id

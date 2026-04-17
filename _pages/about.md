@@ -7,7 +7,6 @@ description: >-
   physicist, Associate Professor at Memorial University of Newfoundland, and
   CEO and Co-Founder of Compute Everything.
 subtitle: <a href="https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/">Associate Professor, Memorial University of Newfoundland</a><br>CEO and Co-Founder, <a href="https://www.computeeverything.ca/">Compute Everything</a>
-
 profile:
   align: right
   image: prof_pic.jpg

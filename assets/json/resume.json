@@ -21,12 +21,7 @@
       "url": "https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/",
       "startDate": "2022-09-01",
       "summary": "Tenured Faculty Position.",
-      "highlights": [
-        "Diagrammatics",
-        "Feynman Diagrams",
-        "Hubbard Models",
-        "Quantum Chemistry"
-      ]
+      "highlights": ["Diagrammatics", "Feynman Diagrams", "Hubbard Models", "Quantum Chemistry"]
     },
     {
       "name": "Memorial University of Newfoundland",
@@ -35,12 +30,7 @@
       "startDate": "2016-08-01",
       "endDate": "2022-09-01",
       "summary": "Tenured Faculty Position.",
-      "highlights": [
-        "Diagrammatics",
-        "Feynman Diagrams",
-        "Hubbard Models",
-        "Quantum Chemistry"
-      ]
+      "highlights": ["Diagrammatics", "Feynman Diagrams", "Hubbard Models", "Quantum Chemistry"]
     }
   ],
   "education": [

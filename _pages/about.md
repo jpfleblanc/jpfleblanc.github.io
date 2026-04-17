@@ -34,4 +34,4 @@ Problem, and is also a Co-Founder of Compute Everything Technologies Ltd., a
 Newfoundland-based start-up company, since 2024.
 
 For information about our research topics and group members, please visit our
-group page <a href="https://www.physics.mun.ca/~jleblanc/">here</a>.
+group page <a href="https://sites.google.com/view/jpfleblanc/home/">here</a>.

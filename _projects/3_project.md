@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Quantum Algorithm Group
+description: research group website
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://sites.google.com/view/jpfleblanc/home/
 importance: 3
 category: work
 ---

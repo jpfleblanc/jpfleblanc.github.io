@@ -12,7 +12,7 @@
       "city": "San Francisco",
       "countryCode": "US",
       "region": "California"
-    },
+    }
   },
   "work": [
     {
@@ -28,7 +28,7 @@
       "position": "Assistant Professor",
       "url": "https://www.mun.ca/physics/our-people/faculty/dr-james-leblanc/",
       "startDate": "2016-08-01",
-      "endDate": "2022-09-01"
+      "endDate": "2022-09-01",
       "summary": "Tenured Faculty Position.",
       "highlights": ["Diagrammatics","Feynman Diagrams", "Hubbard Models", "Quantum Chemistry"]
     }
@@ -43,5 +43,5 @@
       "startDate": "2002-09-01",
       "endDate": "2012-04-30"
     }
-  ],
+  ]
 }

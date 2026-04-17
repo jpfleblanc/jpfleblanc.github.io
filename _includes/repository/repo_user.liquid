@@ -1,14 +1,41 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
-    <img
-      class="repo-img-light w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"
-    >
-    <img
-      class="repo-img-dark w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"
-    >
+<div class="repo p-2 github-profile-card" data-github-username="{{ include.username }}">
+  <a class="github-profile-card__link" href="https://github.com/{{ include.username }}">
+    <div class="card hoverable">
+      <div class="card-body">
+        <div class="github-profile-card__header">
+          <img
+            class="github-profile-card__avatar"
+            src="https://github.com/{{ include.username }}.png"
+            alt="{{ include.username }}"
+            loading="lazy"
+          >
+          <div class="github-profile-card__identity">
+            <h3 class="card-title github-profile-card__name">{{ include.username }}</h3>
+            <p class="github-profile-card__login">@{{ include.username }}</p>
+          </div>
+        </div>
+
+        <p class="github-profile-card__bio">Loading public GitHub profile data...</p>
+
+        <div class="github-profile-card__stats">
+          <span>
+            <strong class="github-profile-card__value" data-field="public_repos">-</strong>
+            repos
+          </span>
+          <span>
+            <strong class="github-profile-card__value" data-field="followers">-</strong>
+            followers
+          </span>
+          <span>
+            <strong class="github-profile-card__value" data-field="following">-</strong>
+            following
+          </span>
+        </div>
+
+        <p class="github-profile-card__meta" data-field="meta">
+          View full contribution history on GitHub.
+        </p>
+      </div>
+    </div>
   </a>
 </div>

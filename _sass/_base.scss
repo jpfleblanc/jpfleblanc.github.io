@@ -507,6 +507,69 @@ footer.sticky-bottom {
   }
 }
 
+.github-profile-card {
+  width: 100%;
+
+  .card {
+    text-align: left;
+  }
+
+  &__link {
+    display: block;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__header {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__avatar {
+    border-radius: 50%;
+    flex-shrink: 0;
+    height: 72px;
+    width: 72px;
+  }
+
+  &__identity {
+    min-width: 0;
+  }
+
+  &__name {
+    margin-bottom: 0.2rem;
+  }
+
+  &__login,
+  &__bio,
+  &__meta {
+    color: var(--global-text-color-light);
+    margin-bottom: 0.75rem;
+  }
+
+  &__stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+
+    span {
+      color: var(--global-text-color);
+      font-size: 0.95rem;
+    }
+  }
+
+  &__value {
+    color: var(--global-theme-color);
+    font-weight: 700;
+    margin-right: 0.2rem;
+  }
+}
+
 // Blog
 
 .header-bar {

@@ -2,7 +2,9 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: A selection of my more impactful publications are here. You can find the rest on google scholar (Link on main page). 
+description: >-
+  A selection of my more impactful publications are here. You can find the
+  rest on Google Scholar (link on the main page).
 nav: true
 nav_order: 1
 ---
@@ -15,6 +17,6 @@ nav_order: 1
 
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }}%}
+  {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>

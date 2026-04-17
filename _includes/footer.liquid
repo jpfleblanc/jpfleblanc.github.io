@@ -9,7 +9,11 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        Site updated: {{ site.time | date: '%Y-%m-%d %H:%M UTC' }}{% if site.github.build_revision %} (build {{ site.github.build_revision | slice: 0, 7 }}){% endif %}.
+        Site updated: {{ site.time | date: '%Y-%m-%d %H:%M UTC' }}{% if
+          site.github.build_revision
+        %}
+          (build {{ site.github.build_revision | slice: 0, 7 }})
+        {% endif %}.
       {% endif %}
     </div>
   </footer>
@@ -28,7 +32,11 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        Site updated: {{ site.time | date: '%Y-%m-%d %H:%M UTC' }}{% if site.github.build_revision %} (build {{ site.github.build_revision | slice: 0, 7 }}){% endif %}.
+        Site updated: {{ site.time | date: '%Y-%m-%d %H:%M UTC' }}{% if
+          site.github.build_revision
+        %}
+          (build {{ site.github.build_revision | slice: 0, 7 }})
+        {% endif %}.
       {% endif %}
     </div>
   </footer>
